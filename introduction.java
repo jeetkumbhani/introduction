@@ -6,8 +6,8 @@ public class website {
 
            System.out.println("Enter 1 for Full Name\n Enter 2 for number\n Enter 3 for enrollment\n enter 4 for qualifications");
            System.out.println("enter choise");
-           Scanner sc=new Scanner(System.in);
-           int a=sc.nextInt();
+           Scanner scan=new Scanner(System.in);
+           int a=scan.nextInt();
            switch(a) {
                case 1:
                    System.out.println("Jeet K. Kumbhani");
